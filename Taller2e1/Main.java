@@ -2,7 +2,7 @@ package Taller2e1;
 public class Main {
     public static void main(String[] args) {
         int[] vector = {3, 6, 9, 2, 5, 4, 8, 7, 10, 1};
-        int numHilos = 4;  // Número de hilos
+        int numHilos = 4;  // Número de hilos si no hay parametros
         if(args.length > 0){
             numHilos = Integer.parseInt(args[0]);
         }
