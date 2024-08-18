@@ -1,4 +1,4 @@
-package caso1;
+package Taller2e1;
 
 public class Maximo {
     private int max = Integer.MIN_VALUE;

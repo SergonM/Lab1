@@ -1,8 +1,12 @@
-package caso1;
+package Taller2e1;
 public class Main {
     public static void main(String[] args) {
         int[] vector = {3, 6, 9, 2, 5, 4, 8, 7, 10, 1};
-        int numHilos = 4;  // Número de hilos (puedes ajustarlo según sea necesario)
+        int numHilos = 4;  // Número de hilos
+        if(args.length > 0){
+            numHilos = Integer.parseInt(args[0]);
+        }
+        System.out.println("Usando " + numHilos + " hilos");
         Maximo maximoCompartido = new Maximo();
 
         T[] hilos = new T[numHilos];

@@ -1,4 +1,4 @@
-package caso1;
+package Taller2e1;
 
 public class T extends Thread {
     private int[] vector;
